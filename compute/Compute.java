@@ -3,9 +3,6 @@
  * description: Remote interface defining a compute service for executing generic tasks via Java RMI.
  * date: July 8, 2025
  * author: Dylan Phillips
- * student id: 3753433
- * version: 1.0
- * Question 2
  * copyright: 2025 Dylan Phillips
  */
 
@@ -61,3 +58,4 @@ import java.rmi.RemoteException;
 public interface Compute extends Remote {
     <T> T executeTask(Task<T> t) throws RemoteException;
 }
+
