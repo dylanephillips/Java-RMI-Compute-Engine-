@@ -3,9 +3,6 @@
  * description: Implementation of the Compute remote interface that executes generic tasks via Java RMI.
  * date: July 8, 2025
  * author: Dylan Phillips
- * student id: 3753433
- * version: 1.0
- * Question 2
  * copyright: 2025 Dylan Phillips
  */
 
@@ -102,3 +99,4 @@ public class ComputeEngine implements Compute {
         }
     }
 }
+
