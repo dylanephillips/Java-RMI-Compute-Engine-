@@ -5,9 +5,6 @@
  *              number within a user-defined range.
  * date: July 8, 2025
  * author: Dylan Phillips
- * student id: 3753433
- * version: 1.0
- * Question 2
  * copyright: 2025 Dylan Phillips
  */
 
@@ -114,4 +111,5 @@ public class Prime implements Task<Integer>, Serializable {
         return true;
     }
 }
+
 
